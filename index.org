@@ -1,0 +1,14 @@
+Information will be added as needed. 
+
+* Coursework
+** Jan - April 2021
+- CPSC 411: Introduction to Compiler Construction [www](https://www.students.cs.ubc.ca/~cs-411/2020w2/index.html)
+- CPSC 508: Graduate Operating Systems [www](https://www.seltzer.com/margo/teaching/CS508.21/index.html)
+
+* Research
+- Nothing so far...
+
+* Contact 
+- siagraw[at]cs[dot]ubc[dot]ca
+-  [[https://www.linkedin.com/in/sidhartha-agrawal/][Linkedin]]
+
