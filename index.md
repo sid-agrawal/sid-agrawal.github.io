@@ -34,5 +34,6 @@ Information will be added as needed.
 # Contact
 
 -   siagraw[at]cs[dot]ubc[dot]ca
+<!---
 -   [Linkedin](https://www.linkedin.com/in/sidhartha-agrawal/)
-
+-->
