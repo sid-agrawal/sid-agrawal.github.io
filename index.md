@@ -1,36 +1,44 @@
 
 # Table of Contents
 
-1.  [Coursework](#org538e7d9)
-    1.  [Jan - April 2021](#org00f7940)
-2.  [Research](#org6d28e7e)
+1.  [Research](#org6d28e7e)
+2.  [Coursework](#org538e7d9)
 3.  [Contact](#org2825255)
 
-Information will be added as needed. 
+<a id="org6d28e7e"></a>
+# Research
+## General Purpose Isolation Mechanisms
+
+After sixty years of operating systems evolution, we continue to find new and different isolation mechanisms: threads, processes, containers, virtual machines, lightweight contexts. 
+Even applications provide isolation mechanisms: a JVM is a user-level process that provides isolation units whose API is Java bytecodes; some browsers offer units of isolation between each browser tab.
+
+We ask whether we really need to have N different isolation mechanisms or whether instead, we could develop a framework in which all these different mechanisms represent points on a continuum. 
+If we could do that, then perhaps A) we could implement such a unified framework, and B) the framework might allow us to discover new and useful isolation mechanisms (that could be created seamlessly rather than requiring an entirely new implementation).
+
+The project has three main goals:
+* Develop a theoretical model or framework to unify existing isolation mechanisms.
+* Identify novel points in the model that are useful.
+* Implement the model in seL4.
+
+Below is an example on how we can view memory as a resource that be shared and isolated accross different types of protection domains.
+This is an evolving diagram, as we are still not sure if can definitely say we can always compare the "Security and Performance Guarantees across any two
+types of protection domains.
+
+![image](https://user-images.githubusercontent.com/22774472/122844760-3382f280-d2b7-11eb-968e-6f36d1db39ce.png)
+
+
+
+
 
 
 <a id="org538e7d9"></a>
-
 # Coursework
-
-
-<a id="org00f7940"></a>
-
-## Jan - April 2021
-
--   CPSC 411: Introduction to Compiler Construction [www](<https://www.students.cs.ubc.ca/~cs-411/2020w2/index.html>)
+### Spring 2021
 -   CPSC 508: Graduate Operating Systems [www](<https://www.seltzer.com/margo/teaching/CS508.21/index.html>)
 
-
-<a id="org6d28e7e"></a>
-
-# Research
-
--   Just started. 
-
+### Summer 2021
+- EEL: 571S: Techniques for Simulating Novel Hardware Architectures in the Context of OS Research [www](<https://docs.google.com/document/d/1EAniq36LdA8tReo9KYm-bTFcrvbMwkutUSN8KiLYIiU/edit#heading=h.bdy4i2cqmbbn>)
 
 <a id="org2825255"></a>
-
 # Contact
-
 -   siagraw[at]cs[dot]ubc[dot]ca
