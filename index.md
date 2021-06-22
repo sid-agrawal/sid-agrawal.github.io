@@ -5,7 +5,8 @@
 2.  [Coursework](#org538e7d9)
 3.  [Contact](#org2825255)
 
-I am a first-year Ph.D. student at the University of British Columbia in Canada and a member of the [Systopia Lab](systopia.cs.ubc.ca/) here. 
+I am a first-year Ph.D. student at the [University of British Columbia](cs.ubc.ca) in Canada and a member of the [Systopia Lab](systopia.cs.ubc.ca/) here. 
+My advisor is [Prof. Margo Seltzer](seltzer.com/margo/).
 I have worked as a [software engineer](https://www.linkedin.com/in/sidhartha-agrawal/) for eight years(Oracle, Arista in Canada and USA) 
 and begun my research journey in Jan 2021.
 
