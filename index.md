@@ -1,4 +1,4 @@
-<img src="profile-pic.jpg" alt="drawing" width="200" >
+<img src="profile-pic.jpg" alt="drawing" width="200"  align="right" >
 
 # About
 I am a first-year Ph.D. student at the [University of British Columbia](https://www.cs.ubc.ca/) in Canada and a member of the [Systopia Lab](https://systopia.cs.ubc.ca/) here. 
@@ -29,7 +29,7 @@ Below is an example on how we can view memory as a resource that be shared and i
 This is an evolving diagram, as we are still not sure if can definitely say we can always compare the "Security and Performance Guarantees across any two
 types of protection domains.
 
-![image](https://user-images.githubusercontent.com/22774472/122844760-3382f280-d2b7-11eb-968e-6f36d1db39ce.png)
+![image](memory-model.png)
 
 
 
