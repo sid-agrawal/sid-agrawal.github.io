@@ -10,6 +10,8 @@ My advisor is [Prof. Margo Seltzer](seltzer.com/margo/).
 I have worked as a [software engineer](https://www.linkedin.com/in/sidhartha-agrawal/) for eight years(Oracle, Arista in Canada and USA) 
 and begun my research journey in Jan 2021.
 
+My primary research interest is in operating systems. 
+
 
 <a id="org6d28e7e"></a>
 # Research
