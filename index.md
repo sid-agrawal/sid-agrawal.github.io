@@ -1,4 +1,4 @@
-<img src="profile-pic.jpg" alt="drawing" width="200"  align="right" >
+<img src="profile-pic-square.jpg" alt="drawing" width="200"  align="right" >
 
 # About
 I am a first-year Ph.D. student at the [University of British Columbia](https://www.cs.ubc.ca/) in Canada and a member of the [Systopia Lab](https://systopia.cs.ubc.ca/) here. 
