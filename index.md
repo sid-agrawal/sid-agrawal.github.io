@@ -1,12 +1,17 @@
-<img src="profile-pic-square.jpg" alt="drawing" width="200"  align="right" >
-
 # About
+
+<img src="profile-pic-square.jpg" alt="drawing" height="150"  align="right" >
+ 
+
 I am a first-year Ph.D. student at the [University of British Columbia](https://www.cs.ubc.ca/) in Canada and a member of the [Systopia Lab](https://systopia.cs.ubc.ca/) here. 
 My advisor is [Prof. Margo Seltzer](https://www.seltzer.com/margo/).
 I have worked as a [software engineer](https://www.linkedin.com/in/sidhartha-agrawal/) for eight years(Oracle, Arista in Canada and USA) 
 and begun my research journey in Jan 2021.
 
 My primary research interest is in operating systems. 
+
+
+
 
 
 <a id="org6d28e7e"></a>
