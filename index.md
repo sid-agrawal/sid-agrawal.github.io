@@ -6,7 +6,7 @@
 I am a first-year Ph.D. student at the [University of British Columbia](https://www.cs.ubc.ca/) in Canada and a member of the [Systopia Lab](https://systopia.cs.ubc.ca/) here. 
 My advisor is [Prof. Margo Seltzer](https://www.seltzer.com/margo/).
 I have worked as a [software engineer](https://www.linkedin.com/in/sidhartha-agrawal/) for eight years(Oracle, Arista in Canada and USA) 
-and begun my research journey in Jan 2021.
+and have begun my research journey in Jan 2021.
 
 My primary research interest is in operating systems. 
 
@@ -31,8 +31,8 @@ The project has three main goals:
 * Implement the model in seL4.
 
 Below is an example on how we can view memory as a resource that be shared and isolated accross different types of protection domains.
-This is an evolving diagram, as we are still not sure if can definitely say we can always compare the "Security and Performance Guarantees across any two
-types of protection domains.
+This is an evolving diagram, as we are still investigating if the "Security and Performance Guarantees" across any two
+types of protection domains can be compared.
 
 ![image](memory-model.png)
 
