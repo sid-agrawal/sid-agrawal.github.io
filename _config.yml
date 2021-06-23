@@ -1,5 +1,6 @@
 theme: jekyll-theme-cayman
 title: Sid Agrawal
 page.title: Sid Agrawal
-
 google_analytics: UA-131641569-1
+plugins:
+  - jekyll-feed
