@@ -1,7 +1,7 @@
 ---
 layout: post
-title:  "This is my first blog post"
-author: Vinish
+title:  "dummypost"
+author: Sid Agrawal
 categories: [ tutorial ]
 ---
 # Hi Welcome to my blog
