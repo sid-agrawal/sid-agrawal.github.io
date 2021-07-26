@@ -51,4 +51,4 @@ types of protection domains can be compared.
 
 <a id="org2825255"></a>
 # Contact
--   siagraw[at]cs[dot]ubc[dot]ca
+-   sid[at]sid-agrawal[dot]ca
