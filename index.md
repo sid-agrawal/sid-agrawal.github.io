@@ -10,10 +10,6 @@ and have begun my research journey in Jan 2021.
 
 My primary research interest is in operating systems. 
 
-
-
-
-
 <a id="org6d28e7e"></a>
 # Research Projects
 
