@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: default
 title:  "First Post"
 date: 2021-02-16
 categories:
