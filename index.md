@@ -26,7 +26,7 @@ The project has three main goals:
 * Identify novel points in the model that are useful.
 * Implement the model in seL4.
 
-Below is an example on how we can view memory as a resource that be shared and isolated accross different types of protection domains.
+Below is an example on how we can view memory as a resource that be shared and isolated across different types of protection domains.
 This is an evolving diagram, as we are still investigating if the "Security and Performance Guarantees" across any two
 types of protection domains can be compared.
 
