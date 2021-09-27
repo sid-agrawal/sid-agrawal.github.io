@@ -1,5 +1,9 @@
-# Mailing List
-
+---
+layout: posts
+title:  "seL4: Page count mismatch in sel4utlils vpace library"
+date: 2021-09-27
+categories: sel4, virtual memory
+---
 ## Discrepancy in number of pages allocated
 
 In my test setup(which is copied from `sel4test` system), the root task(driver) starts another process(test app) using `sel4utils_spawn_process_v`.(inside basic_run_test). Then in the root task we do a walk of the child task's address space structures maintained by `sel4utils/vspace` library. 
