@@ -15,7 +15,7 @@ The 2 structures I am walking are:
 
 I find that the number of pages I get from the 2 walks are not equal. I understand that neither of the above are reflective of the true state of the address space as that is only known to the kernel. So, it is simply possible that in some code path, the library inserts an entry in to one of the structures and not the other. I have used Intel 32-bit platform to keep the page table structure simple for this query.
 
-Here is the code to walk the vspace:
+Here is the code to walk the [vspace](https://github.com/sid-agrawal/seL4_libs/blob/0d37c61f89dc335a5905f5625be3125e2afe42f3/libsel4utils/src/vspace/vspace.c#L903):
 
 ```c
 int sel4utils_walk_vspace(vspace_t *vspace, vka_t *vka) {
