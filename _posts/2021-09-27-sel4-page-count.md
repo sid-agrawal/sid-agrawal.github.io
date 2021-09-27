@@ -4,7 +4,9 @@ title:  "seL4: Page count mismatch in sel4utlils vpace library"
 date: 2021-09-27
 categories: sel4, virtual memory
 ---
-## Discrepancy in number of pages allocated
+
+Discrepancy in number of pages allocated as per 2 different data structure in the 
+virtual memory library.
 
 In my test setup(which is copied from `sel4test` system), the root task(driver) starts another process(test app) using `sel4utils_spawn_process_v`.(inside basic_run_test). Then in the root task we do a walk of the child task's address space structures maintained by `sel4utils/vspace` library. 
 
@@ -143,7 +145,8 @@ The first part of the output shows the size of the reservation is a number of 4K
 
 The second part of the output shows the page directory and table entries. Here we see that the 2 PDE are in use with a total of 405(18 + 387) PTEs used in total.
 
+### Questions
 Why is there is a discrepancy in the number of pages used?
-
 - Does the library allocate a bunch of pages(387) which do not belong to any reservation?
-- As far as the single page difference of 17 Vs 18 can be explained by the driver sharing a page with the test-app.
+- As far as the single page difference of 17 Vs 18 can be explained by the 
+  driver sharing a page with the test-app.
