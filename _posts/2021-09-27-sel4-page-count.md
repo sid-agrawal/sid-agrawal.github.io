@@ -5,17 +5,25 @@ date: 2021-09-27
 categories: sel4, virtual memory
 ---
 
-Discrepancy in number of pages allocated as per 2 different data structure in the 
-virtual memory library.
+I was looking at the [sel4utils/vspace](https://github.com/seL4/seL4_libs/tree/master/libsel4utils) library and 
+noticed a mismatch in the number of pages allocated as per the two data structures which keep track of the 
+address space. Below I have laid out my test setup, steps to reproduce and finally the exact questions.
 
-In my test setup(which is copied from `sel4test` system), the root task(driver) starts another process(test app) using `sel4utils_spawn_process_v`.(inside basic_run_test). Then in the root task we do a walk of the child task's address space structures maintained by `sel4utils/vspace` library. 
+In my test setup(which is copied from `sel4test` system), the root task(driver) starts another process(test app) 
+using `sel4utils_spawn_process_v`.(inside basic_run_test). Then in the root task we do a walk of the child task's 
+address space structures maintained by `sel4utils/vspace` library. 
 
 The 2 structures I am walking are:
+- The linked list of reservations: [src](https://github.com/seL4/seL4_libs/blob/master/libsel4utils/include/sel4utils/vspace.h#L76): 
+Here we traverse a linked list and count the number of pages which have been allocated.
+- The tree which keeps the caps of pages mapped so far(sort of like the shadow page table). 
+[src](https://github.com/seL4/seL4_libs/blob/master/libsel4utils/include/sel4utils/vspace.h#L71). 
+Here we traverse the multi-level shadow page table hierarchy to count the pages the library has mapped.
 
-- The linked list of reservations: [src](https://github.com/seL4/seL4_libs/blob/master/libsel4utils/include/sel4utils/vspace.h#L76): Here we traverse a linked list and count the number of pages which have been allocated.
-- The tree which keeps the caps of pages mapped so far(sort of like the shadow page table). [src](https://github.com/seL4/seL4_libs/blob/master/libsel4utils/include/sel4utils/vspace.h#L71). Here we traverse the multi-level shadow page table hierarchy to count the pages the library has mapped.
-
-I find that the number of pages I get from the 2 walks are not equal. I understand that neither of the above are reflective of the true state of the address space as that is only known to the kernel. So, it is simply possible that in some code path, the library inserts an entry in to one of the structures and not the other. I have used Intel 32-bit platform to keep the page table structure simple for this query.
+I find that the number of pages I get from the 2 walks are not equal. I understand that neither of 
+the above are reflective of the true state of the address space as that is only known to the kernel. So, 
+it is simply possible that in some code path, the library inserts an entry in to one of the structures 
+and not the other. I have used Intel 32-bit platform to keep the page table structure simple for this query.
 
 Here is the code to walk the [vspace](https://github.com/sid-agrawal/seL4_libs/blob/0d37c61f89dc335a5905f5625be3125e2afe42f3/libsel4utils/src/vspace/vspace.c#L903):
 
@@ -97,8 +105,8 @@ int sel4utils_walk_vspace(vspace_t *vspace, vka_t *vka) {
 
 Test Environment:
 
-- The docker environment was setup using instruction from [Using Docker for seL4](https://docs.sel4.systems/projects/dockerfiles/).
-- QEMU on Ubuntu 20.04 on 64 bit Intel machine
+- The docker environment was set up using instruction from [Using Docker for seL4](https://docs.sel4.systems/projects/dockerfiles/).
+- QEMU on Ubuntu 20.04 on 64-bit Intel machine
 
 Below is the steps to reproduce the issue:
 
@@ -141,9 +149,12 @@ PDE-Index(64)
 ===========Start of interesting output================
 ```
 
-The first part of the output shows the size of the reservation is a number of 4KB pages which is 17 pages.  We see that the vspace has only 1 reservation which is 17 pages long and is malloced.
+The first part of the output shows the size of the reservation is a number of 4 KB pages which is 17 pages.  
+We see that the vspace has only 1 reservation which is 17 pages long and is malloced.  This itself is a little 
+odd; I was expecting multiple reservations for code, stack, RO-data etc.
 
-The second part of the output shows the page directory and table entries. Here we see that the 2 PDE are in use with a total of 405(18 + 387) PTEs used in total.
+The second part of the output shows the page directory and table entries. Here we see that the 2 
+PDE are in use with a total of 405(18 + 387) PTEs used in total.
 
 ### Questions
 Why is there is a discrepancy in the number of pages used?

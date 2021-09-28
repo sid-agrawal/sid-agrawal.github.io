@@ -1,1 +1,4 @@
 malloced
+vspace
+PDE
+PTE
