@@ -161,3 +161,6 @@ Why is there is a discrepancy in the number of pages used?
 - Does the library allocate a bunch of pages(387) which do not belong to any reservation?
 - As far as the single page difference of 17 Vs 18 can be explained by the 
   driver sharing a page with the test-app.
+
+### Answer
+I will update the answers as I find them. :-)
