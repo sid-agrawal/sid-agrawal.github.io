@@ -2,3 +2,5 @@ malloced
 vspace
 PDE
 PTE
+Genode
+init
