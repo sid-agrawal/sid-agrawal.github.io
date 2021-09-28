@@ -2,7 +2,7 @@
 layout: posts
 title:  "Genode: Running out of capabilities on 64-bit platforms"
 date: 2021-09-27
-categories: sel4, virtual memory
+categories: sel4, genode, hello, virtual memory
 ---
 
 I am using Genode(with seL4) as the OS platform for demonstrating my [research ideas](http://sid-agrawal.ca). As with starting with a new platform I have run into some hurdles.
