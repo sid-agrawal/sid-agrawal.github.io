@@ -5,11 +5,11 @@ date: 2021-09-27
 categories: sel4, genode, hello, virtual memory
 ---
 
-I am using Genode(with seL4) as the OS platform for demonstrating my [research ideas](http://sid-agrawal.ca). As with starting with a new platform I have run into some hurdles.
+I am using Genode(with seL4) as the OS platform for demonstrating my [research ideas](https://sid-agrawal.ca/index.html#research-projects). As with starting with a new platform I have run into some hurdles.
 
 ## Running the hello_tutorial
 
-The hello_tutorial job on qemu did not finish to completing and timed out. Below are my steps on ubuntu 20.04.1. I am using the [Genode development container](https://genodians.org/skalk/2020-09-29-docker-devel), so the tools should not an issue. I also tried it outside the container, with the same result.
+The hello_tutorial job on QEMU did not finish to completing and timed out. Below are my steps on Ubuntu 20.04.1. I am using the [Genode development container](https://genodians.org/skalk/2020-09-29-docker-devel), so the tools should not an issue. I also tried it outside the container, with the same result.
 
 ```bash
 git clone git://github.com/genodelabs/genode.git 
@@ -56,7 +56,7 @@ They were able to reproduce the issue and pointed out that the issue is related 
 <default caps="50"/>
 ```
 
-Now you may grant the component some more caps to make it run successully by changing to the hello_server start node and running
+Now you may grant the component some more caps to make it run successfully by changing to the hello_server start node and running
 
 ```xml
 <start name="hello_server" caps="54">
@@ -84,6 +84,6 @@ The following start nodes render the scenario working again.
 
 Please see Chapters "Resource trading" [1] and "Resource assignment" [2] in the Genode Foundations book for a thorough explanation.
 
-[1] [https://genode.org/documentation/genode-foundations/21.05/architecture/Resource_trading.html](https://genode.org/documentation/genode-foundations/21.05/architecture/Resource_trading.html)
+[1] [Genode: Resource Trading](https://genode.org/documentation/genode-foundations/21.05/architecture/Resource_trading.html)
 
-[2] [https://genode.org/documentation/genode-foundations/21.05/system_configuration/The_init_component.html#Resource_assignment](https://genode.org/documentation/genode-foundations/21.05/system_configuration/The_init_component.html#Resource_assignment)
+[2] [Genode: Resource Assignment](https://genode.org/documentation/genode-foundations/21.05/system_configuration/The_init_component.html#Resource_assignment)
