@@ -1,5 +1,3 @@
-# About
-
 <img src="profile-pic-square.jpg" alt="drawing" height="150"  align="right" >
  
 
