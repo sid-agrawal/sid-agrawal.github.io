@@ -51,7 +51,7 @@ That's why the host OS needs to maintain some additional state about the CPU run
 the VM. This additional state is denoted by the dictionary `cpu_state` below.
 
 Furthermore, there are certain actions that the processor does automatically, which have to be
-mimicked by the host OS. For instance, when a user process issues a system call. The process
+mimicked by the host OS. For instance, when a user process issues a system call. The processor
 automatically switches the address space and sets the kernel bit in the CPU. Similarly,
 when the kernel returns from the system call, the hardware automatically switches back to
 the user's address space and unsets the kernel bit in the CPU.
