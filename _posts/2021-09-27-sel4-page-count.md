@@ -5,6 +5,10 @@ date: 2021-09-27
 categories: sel4, virtual memory
 ---
 
+```
+Updated Feb 2, 2022
+Root cause at the bottom
+```
 I was looking at the [sel4utils/vspace](https://github.com/seL4/seL4_libs/tree/master/libsel4utils) library and 
 noticed a mismatch in the number of pages allocated as per the two data structures which keep track of the 
 address space. Below I have laid out my test setup, steps to reproduce and finally the exact questions.
@@ -163,4 +167,11 @@ Why is there is a discrepancy in the number of pages used?
   driver sharing a page with the test-app.
 
 ### Answer
-I will update the answers as I find them. :-)
+The discrepency stems from this line: [seL4_libs/elf.c](https://github.com/seL4/seL4_libs/blob/master/libsel4utils/src/elf.c#L503)
+
+Turns out the nodes in the vspace's reservation list are deleted at line 503. 
+I changed the caller of `sel4utils_elf_load_record_regions` to malloc the memory required for 
+`regions`, so that  `clear_at_end` is never set. 
+Now the reservation list and the mappings are consistent.
+
+...phew!
