@@ -4,7 +4,7 @@ This is done so that it does not mess up the packages installed on the host.
 
 ## Setup a container
 
-Build the image `linux-build-vm` based on this image.
+Build the image `linux-build-vm` based on this Dockerfile.
 
 ```Dockerfile
 FROM debian
