@@ -6,7 +6,7 @@ My advisor is [Prof. Margo Seltzer](https://www.seltzer.com/margo/).
 I have worked as a [software engineer](https://www.linkedin.com/in/sidhartha-agrawal/) for eight years(Oracle, Arista in Canada and USA) 
 and have begun my research journey in Jan 2021. 
 In summer of 2022 I interned at [ARM Research](https://veracruz-project.github.io/) working seL4 and CHERI capabilities.
-My primary research interest is in operating systems. 
+My primary research interest is in operating systems architecure and security. 
 
 <a id="org6d28e7e"></a>
 # Research Projects
@@ -30,7 +30,22 @@ types of protection domains can be compared.
 
 ![image](memory-model.png)
 
-## Conferences Attended
+## Exciting Hardware Features
+[CHERI](https://www.cl.cam.ac.uk/research/security/ctsrd/cheri/) is a new ISA extension to enable capabilities in hardware.
+And [Morello](https://www.arm.com/architecture/cpu/morello) is the first silicon to have this ISA extension.
+I have been looking to how this hardware capabiltiy impacts the design of exiting capabilities based microkernel like seL4.
+This work was done during my internship at ARM Research in the summer of 2022.
+
+## Intra-kernel Compartmentalization
+Monolithic kernel the likes of Linux, BSD, Windows are benemoths which share a single address space. 
+A variety of techiniques have been proposed to improve the reliability of these monolithic kernels.
+We are looking in what is the state of art today and where it might go next based on new hardware trends.
+
+```
+If any of this piques your interest, shoot me an email.
+```
+
+# Conferences Attended
 * [HPTS 2022](http://hpts.ws/index.html), Monterey, California, USA (Invitation Only)
 * [Hot Carbon 2022](https://hotcarbon.org/), San Diego, California, USA
 * [OSDI 2022](https://www.usenix.org/conference/osdi22), San Diego, California, USA
@@ -38,7 +53,7 @@ types of protection domains can be compared.
 * [HotOS 2021](https://sigops.org/s/conferences/hotos/2021/): Virtually
 
 <a id="org538e7d9"></a>
-## Coursework
+# Coursework
 - CPSC 508: Graduate Operating Systems [www](<https://www.seltzer.com/margo/teaching/CS508.21/index.html>)
 - EEL 571S: Techniques for Simulating Novel Hardware Architectures in the Context of OS Research [www](<https://docs.google.com/document/d/1EAniq36LdA8tReo9KYm-bTFcrvbMwkutUSN8KiLYIiU/edit#heading=h.bdy4i2cqmbbn>)
 - CPSC 513: Formal Verification [www](<https://www.cs.ubc.ca/~ajh/courses/cpsc513/index.html>)
