@@ -11,7 +11,9 @@ My primary research interest is in operating systems architecure and security.
 <a id="org6d28e7e"></a>
 # Research Projects
 
-## General Purpose Isolation Mechanisms
+>If any of this piques your interest, shoot me an email.
+
+## Operating Systems have way too many isolation mechanisms, but and help is on the way.
 
 After sixty years of operating system evolution, we continue to find new and different isolation mechanisms: threads, processes, containers, virtual machines, lightweight contexts. 
 Even applications provide isolation mechanisms: a JVM is a user-level process that provides isolation units whose API is Java bytecodes; some browsers offer units of isolation between each browser tab.
@@ -33,17 +35,17 @@ types of protection domains can be compared.
 ## Exciting Hardware Features
 [CHERI](https://www.cl.cam.ac.uk/research/security/ctsrd/cheri/) is a new ISA extension to enable capabilities in hardware.
 And [Morello](https://www.arm.com/architecture/cpu/morello) is the first silicon to have this ISA extension.
-I have been looking to how this hardware capabiltiy impacts the design of exiting capabilities based microkernel like seL4.
+I have been looking at how this hardware capability impacts the design of existing capabilities-based microkernels like seL4.
 This work was done during my internship at ARM Research in the summer of 2022.
 
 ## Intra-kernel Compartmentalization
-Monolithic kernel the likes of Linux, BSD, Windows are benemoths which share a single address space. 
-A variety of techiniques have been proposed to improve the reliability of these monolithic kernels.
-We are looking in what is the state of art today and where it might go next based on new hardware trends.
+Monolithic kernels like  Linux, BSD, Windows are benemoths that share a single address space. 
+A variety of techniques have been proposed to improve the reliability of these monolithic kernels.
+We are looking at what is the state of the art today and where it might go next based on new hardware trends.
 
-```
-If any of this piques your interest, shoot me an email.
-```
+
+
+
 
 # Conferences Attended
 * [HPTS 2022](http://hpts.ws/index.html), Monterey, California, USA (Invitation Only)
