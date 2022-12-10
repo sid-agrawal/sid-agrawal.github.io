@@ -49,19 +49,19 @@ We are looking at what is the state of the art today and where it might go next 
 
 
 # Conferences Attended
-* [HPTS 2022](http://hpts.ws/index.html), Monterey, California, USA (Invitation Only)
-* [Hot Carbon 2022](https://hotcarbon.org/), San Diego, California, USA
+* [HPTS 2022](http://hpts.ws/index.html), Monterey, California, USA: `Gave a lightning talk on OS isolation mechanisms`
 * [OSDI 2022](https://www.usenix.org/conference/osdi22), San Diego, California, USA
+* [Hot Carbon 2022](https://hotcarbon.org/), San Diego, California, USA
 * [SOSP 2021](https://sosp2021.mpi-sws.org/): Virtually
 * [HotOS 2021](https://sigops.org/s/conferences/hotos/2021/): Virtually
 
 <a id="org538e7d9"></a>
 # Coursework
-- CPSC 508: Graduate Operating Systems [www](<https://www.seltzer.com/margo/teaching/CS508.21/index.html>)
-- EEL 571S: Techniques for Simulating Novel Hardware Architectures in the Context of OS Research [www](<https://docs.google.com/document/d/1EAniq36LdA8tReo9KYm-bTFcrvbMwkutUSN8KiLYIiU/edit#heading=h.bdy4i2cqmbbn>)
+- CPSC 538A: Operating Systems Design and Implementation using Barrelfish [www](<https://www.cs.ubc.ca/~achreto/teaching/538/>)
 - CPSC 513: Formal Verification [www](<https://www.cs.ubc.ca/~ajh/courses/cpsc513/index.html>)
 - CPSC 538M: Security and Privacy in the Era of Side Channels(Audit) [www](<https://aasthakm.github.io/courses/cpsc538m.html>) 
-- CPSC 538A: Operating Systems Design and Implementation using Barrelfish [www](<https://www.cs.ubc.ca/~achreto/teaching/538/>)
+- EEL 571S: Techniques for Simulating Novel Hardware Architectures in the Context of OS Research [www](<https://docs.google.com/document/d/1EAniq36LdA8tReo9KYm-bTFcrvbMwkutUSN8KiLYIiU/edit#heading=h.bdy4i2cqmbbn>)
+- CPSC 508: Graduate Operating Systems [www](<https://www.seltzer.com/margo/teaching/CS508.21/index.html>)
 
 <a id="org2825255"></a>
 # Contact
