@@ -13,7 +13,7 @@ My primary research interest is in operating systems architecure and security.
 
 >If any of this piques your interest, shoot me an email.
 
-## Operating Systems have way too many isolation mechanisms, but and help is on the way.
+## Operating Systems have way too many isolation mechanisms, but help is on the way.
 
 After sixty years of operating system evolution, we continue to find new and different isolation mechanisms: threads, processes, containers, virtual machines, lightweight contexts. 
 Even applications provide isolation mechanisms: a JVM is a user-level process that provides isolation units whose API is Java bytecodes; some browsers offer units of isolation between each browser tab.
