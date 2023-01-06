@@ -57,7 +57,8 @@ We are looking at what is the state of the art today and where it might go next 
 
 <a id="org538e7d9"></a>
 # Coursework
-- CPSC 538A: Operating Systems Design and Implementation using Barrelfish [www](<https://www.cs.ubc.ca/~achreto/teaching/538/>)
+- CPSC 504: Data Management [www](https://www.cs.ubc.ca/~rap/teaching/504/2022W2/index.shtml)
+- CPSC 538A: Operating Systems Design and Implementation using Barrelfish(Audit) [www](<https://www.cs.ubc.ca/~achreto/teaching/538/>)
 - CPSC 513: Formal Verification [www](<https://www.cs.ubc.ca/~ajh/courses/cpsc513/index.html>)
 - CPSC 538M: Security and Privacy in the Era of Side Channels(Audit) [www](<https://aasthakm.github.io/courses/cpsc538m.html>) 
 - EEL 571S: Techniques for Simulating Novel Hardware Architectures in the Context of OS Research [www](<https://docs.google.com/document/d/1EAniq36LdA8tReo9KYm-bTFcrvbMwkutUSN8KiLYIiU/edit#heading=h.bdy4i2cqmbbn>)
