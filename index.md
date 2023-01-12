@@ -57,7 +57,7 @@ We are looking at what is the state of the art today and where it might go next 
 
 <a id="org538e7d9"></a>
 # Coursework
-- CPSC 504: Data Management [www](https://www.cs.ubc.ca/~rap/teaching/504/2022W2/index.shtml)
+- CPSC 504: Data Management & DBMS Research [www](https://www.cs.ubc.ca/~rap/teaching/504/2022W2/index.shtml)
 - CPSC 538A: Operating Systems Design and Implementation using Barrelfish(Audit) [www](<https://www.cs.ubc.ca/~achreto/teaching/538/>)
 - CPSC 513: Formal Verification [www](<https://www.cs.ubc.ca/~ajh/courses/cpsc513/index.html>)
 - CPSC 538M: Security and Privacy in the Era of Side Channels(Audit) [www](<https://aasthakm.github.io/courses/cpsc538m.html>) 
