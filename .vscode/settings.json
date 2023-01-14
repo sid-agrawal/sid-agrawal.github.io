@@ -4,6 +4,10 @@
             "language": "markdown",
             "scheme": "file",
             "pattern": "_posts/2023-01-01-seL4-CHERI.md"
+        },
+        {
+            "language": "markdown",
+            "scheme": "file"
         }
     ]
 }

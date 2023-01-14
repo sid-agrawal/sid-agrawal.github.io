@@ -3,10 +3,10 @@
 
 I am a third-year Ph.D. student at the [University of British Columbia](https://www.cs.ubc.ca/) in Canada and a member of the [Systopia Lab](https://systopia.cs.ubc.ca/) here. 
 My advisor is [Prof. Margo Seltzer](https://www.seltzer.com/margo/).
-I have worked as a [software engineer](https://www.linkedin.com/in/sidhartha-agrawal/) for eight years(Oracle, Arista in Canada and USA) 
-and have begun my research journey in Jan 2021. 
-In summer of 2022 I interned at [ARM Research](https://veracruz-project.github.io/) working seL4 and CHERI capabilities.
-My primary research interest is in operating systems architecure and security. 
+I have worked as a [software engineer](https://www.linkedin.com/in/sidhartha-agrawal/) for eight years(Oracle, Arista in Canada and USA) and began my research journey in Jan 2021. 
+In the summer of 2022, I interned at [ARM Research](https://veracruz-project.github.io/), 
+working on seL4 and CHERI capabilities.
+My primary research interest is in operating systems architecture and security. 
 
 <a id="org6d28e7e"></a>
 # Research Projects
@@ -26,7 +26,8 @@ The project has three main goals:
 * Identify novel points in the model that are useful.
 * Implement the model in seL4.
 
-Below is an example on how we can view memory as a resource that be shared and isolated across different types of protection domains.
+Below is an example of how we can view memory as a resource that can
+be shared and isolated across different types of protection domains.
 This is an evolving diagram, as we are still investigating if the "Security and Performance Guarantees" across any two
 types of protection domains can be compared.
 
@@ -38,12 +39,14 @@ types of protection domains can be compared.
 [CHERI](https://www.cl.cam.ac.uk/research/security/ctsrd/cheri/) is a new ISA extension to enable capabilities in hardware.
 And [Morello](https://www.arm.com/architecture/cpu/morello) is the first silicon to have this ISA extension.
 I have been looking at how this hardware capability impacts the design of existing capabilities-based microkernels like seL4.
-This work was done during my internship at ARM Research in the summer of 2022 [www](https://sid-agrawal.ca/sel4,/cheri,/morello,/aarch64,/cheribsd/2023/01/01/seL4-CHERI.html).
+This work was done during my internship at ARM Research in the summer of 2022.
+
+| Here is a blog post about the work done over that summer [www](https://sid-agrawal.ca/sel4,/cheri,/morello,/aarch64,/cheribsd/2023/01/01/seL4-CHERI.html).
 
 ## Intra-kernel Compartmentalization
-Monolithic kernels like  Linux, BSD, Windows are benemoths that share a single address space. 
-A variety of techniques have been proposed to improve the reliability of these monolithic kernels.
-We are looking at what is the state of the art today and where it might go next based on new hardware trends.
+Monolithic kernels like  Linux, BSD, and Windows are behemoths that share a single address space.
+Various techniques have been proposed to improve the reliability of these monolithic kernels.
+We are looking at the state of the art and where it might go next based on new hardware trends.
 
 # Publications
 > Stay tuned
