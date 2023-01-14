@@ -30,6 +30,8 @@ Below is an example on how we can view memory as a resource that be shared and i
 This is an evolving diagram, as we are still investigating if the "Security and Performance Guarantees" across any two
 types of protection domains can be compared.
 
+| I gave a lighting(gong) talk at [HPTS2022](hpts.ws) based on the following [submission](https://sid-agrawal.ca/Sidhartha_Agrawal_HPTS2022.pdf).
+
 ![image](https://sid-agrawal.ca/images/memory-model.png)
 
 ## Exciting Hardware Features
