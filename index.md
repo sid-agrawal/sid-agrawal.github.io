@@ -23,8 +23,8 @@ If we could do that, then perhaps A) we could implement such a unified framework
 
 The project has three main goals:
 * Develop a theoretical model or framework to unify existing isolation mechanisms.
-* Identify novel points in the model that are useful.
-* Implement the model in seL4.
+* Identify novel points in the model that are useful, and demonstrate that the sharing and isolation has a spectrum.
+* Implement the model in seL4, or any other suitable platform.
 
 Below is an example of how we can view memory as a resource that can
 be shared and isolated across different types of protection domains.
