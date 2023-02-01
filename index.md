@@ -11,7 +11,7 @@ My primary research interest is in operating systems architecture and security.
 <a id="org6d28e7e"></a>
 # Research Projects
 
->If any of this piques your interest, shoot me an email.
+> If any of this piques your interest, shoot me an email.
 
 ## Operating Systems have way too many isolation mechanisms, but help is on the way.
 
@@ -33,7 +33,7 @@ types of protection domains can be compared.
 ![image](https://sid-agrawal.ca/images/isolation-spectrum.png)
 
 
-> I gave a lighting(gong) talk at [HPTS2022](hpts.ws) based on the following [submission](https://sid-agrawal.ca/Sidhartha_Agrawal_HPTS2022.pdf).
+> I gave a lightning(gong) talk at [HPTS2022](hpts.ws) based on the following [submission](https://sid-agrawal.ca/Sidhartha_Agrawal_HPTS2022.pdf).
 
 ## Exciting Hardware Features
 [CHERI](https://www.cl.cam.ac.uk/research/security/ctsrd/cheri/) is a new ISA extension to enable capabilities in hardware.
@@ -41,7 +41,7 @@ And [Morello](https://www.arm.com/architecture/cpu/morello) is the first silicon
 I have been looking at how this hardware capability impacts the design of existing capabilities-based microkernels like seL4.
 This work was done during my internship at ARM Research in the summer of 2022.
 
-| Here is a blog post about the work done over that summer [www](https://sid-agrawal.ca/sel4,/cheri,/morello,/aarch64,/cheribsd/2023/01/01/seL4-CHERI.html).
+> Here is a blog post about the work done over that summer [www](https://sid-agrawal.ca/sel4,/cheri,/morello,/aarch64,/cheribsd/2023/01/01/seL4-CHERI.html).
 
 ## Intra-kernel Compartmentalization
 Monolithic kernels like  Linux, BSD, and Windows are behemoths that share a single address space.
