@@ -26,14 +26,14 @@ The project has three main goals:
 * Identify novel points in the model that are useful, and demonstrate that the sharing and isolation has a spectrum.
 * Implement the model in seL4, or any other suitable platform.
 
-Below is an example of how we can view memory as a resource that can
-be shared and isolated across different types of protection domains.
+Below is an example of how we can view threads, processes, and virtual machines as more isolated than the previous one.
 This is an evolving diagram, as we are still investigating if the "Security and Performance Guarantees" across any two
 types of protection domains can be compared.
 
-| I gave a lighting(gong) talk at [HPTS2022](hpts.ws) based on the following [submission](https://sid-agrawal.ca/Sidhartha_Agrawal_HPTS2022.pdf).
+![image](https://sid-agrawal.ca/images/isolation-spectrum.png)
 
-![image](https://sid-agrawal.ca/images/memory-model.png)
+
+> I gave a lighting(gong) talk at [HPTS2022](hpts.ws) based on the following [submission](https://sid-agrawal.ca/Sidhartha_Agrawal_HPTS2022.pdf).
 
 ## Exciting Hardware Features
 [CHERI](https://www.cl.cam.ac.uk/research/security/ctsrd/cheri/) is a new ISA extension to enable capabilities in hardware.
