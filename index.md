@@ -54,6 +54,7 @@ We are looking at the state of the art and where it might go next based on new h
 
 
 # Conferences Attended
+* [OSDI 2023](https://www.usenix.org/conference/osdi23), Boston, MA, USA
 * [HPTS 2022](http://hpts.ws/index.html), Monterey, California, USA: `Gave a lightning talk on OS isolation mechanisms`
 * [OSDI 2022](https://www.usenix.org/conference/osdi22), San Diego, California, USA
 * [Hot Carbon 2022](https://hotcarbon.org/), San Diego, California, USA
