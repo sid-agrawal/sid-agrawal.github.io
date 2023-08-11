@@ -1,12 +1,12 @@
 <img src="profile-pic-square.jpg" alt="drawing" height="150"  align="right" >
- 
 
-I am a third-year Ph.D. student at the [University of British Columbia](https://www.cs.ubc.ca/) in Canada and a member of the [Systopia Lab](https://systopia.cs.ubc.ca/) here. 
+
+I am a third-year Ph.D. student at the [University of British Columbia](https://www.cs.ubc.ca/) in Canada and a member of the [Systopia Lab](https://systopia.cs.ubc.ca/) here.
 My advisor is [Prof. Margo Seltzer](https://www.seltzer.com/margo/).
-I have worked as a [software engineer](https://www.linkedin.com/in/sidhartha-agrawal/) for eight years(Oracle, Arista in Canada and USA) and began my research journey in Jan 2021. 
-In the summer of 2022, I interned at [ARM Research](https://veracruz-project.github.io/), 
+I have worked as a [software engineer](https://www.linkedin.com/in/sidhartha-agrawal/) for eight years(Oracle, Arista in Canada and USA) and began my research journey in Jan 2021.
+In the summer of 2022, I interned at [ARM Research](https://veracruz-project.github.io/),
 working on seL4 and CHERI capabilities.
-My primary research interest is in operating systems architecture and security. 
+My primary research interest is in operating systems architecture and security.
 
 <a id="org6d28e7e"></a>
 # Research Projects
@@ -15,10 +15,10 @@ My primary research interest is in operating systems architecture and security.
 
 ## Operating Systems have way too many isolation mechanisms, but help is on the way.
 
-After sixty years of operating system evolution, we continue to find new and different isolation mechanisms: threads, processes, containers, virtual machines, lightweight contexts. 
+After sixty years of operating system evolution, we continue to find new and different isolation mechanisms: threads, processes, containers, virtual machines, lightweight contexts.
 Even applications provide isolation mechanisms: a JVM is a user-level process that provides isolation units whose API is Java bytecodes; some browsers offer units of isolation between each browser tab.
 
-We ask whether we really need to have N different isolation mechanisms or, instead, we could develop a framework in which all these different mechanisms represent points on a continuum. 
+We ask whether we really need to have N different isolation mechanisms or, instead, we could develop a framework in which all these different mechanisms represent points on a continuum.
 If we could do that, then perhaps A) we could implement such a unified framework, and B) the framework might allow us to discover new and useful isolation mechanisms (that could be created seamlessly rather than requiring an entirely new implementation).
 
 The project has three main goals:
@@ -54,6 +54,8 @@ We are looking at the state of the art and where it might go next based on new h
 
 
 # Conferences Attended
+* [SOSP 2023](https://sosp2023.mpi-sws.org/), Coblenz, Germany `Helped with PC meeting logistics`
+* [seL4 Summit 2023](https://sel4.systems/Foundation/Summit/2023/), Minneapolis, MI, USA
 * [OSDI 2023](https://www.usenix.org/conference/osdi23), Boston, MA, USA
 * [HPTS 2022](http://hpts.ws/index.html), Monterey, California, USA: `Gave a lightning talk on OS isolation mechanisms`
 * [OSDI 2022](https://www.usenix.org/conference/osdi22), San Diego, California, USA
@@ -66,7 +68,7 @@ We are looking at the state of the art and where it might go next based on new h
 - CPSC 504: Data Management & DBMS Research [www](https://www.cs.ubc.ca/~rap/teaching/504/2022W2/index.shtml)
 - CPSC 538A: Operating Systems Design and Implementation using Barrelfish(Audit) [www](<https://www.cs.ubc.ca/~achreto/teaching/538/>)
 - CPSC 513: Formal Verification [www](<https://www.cs.ubc.ca/~ajh/courses/cpsc513/index.html>)
-- CPSC 538M: Security and Privacy in the Era of Side Channels(Audit) [www](<https://aasthakm.github.io/courses/cpsc538m.html>) 
+- CPSC 538M: Security and Privacy in the Era of Side Channels(Audit) [www](<https://aasthakm.github.io/courses/cpsc538m.html>)
 - EEL 571S: Techniques for Simulating Novel Hardware Architectures in the Context of OS Research [www](<https://docs.google.com/document/d/1EAniq36LdA8tReo9KYm-bTFcrvbMwkutUSN8KiLYIiU/edit#heading=h.bdy4i2cqmbbn>)
 - CPSC 508: Graduate Operating Systems [www](<https://www.seltzer.com/margo/teaching/CS508.21/index.html>)
 
