@@ -33,7 +33,7 @@ types of protection domains can be compared.
 ![image](https://sid-agrawal.ca/images/isolation-spectrum.png)
 
 
-> I gave a lightning(gong) talk at [HPTS2022](hpts.ws) based on the following [submission](https://sid-agrawal.ca/Sidhartha_Agrawal_HPTS2022.pdf).
+> I gave a lightning(gong) talk at [HPTS2022](hpts.ws) based on this work. More details available in our [Arxiv submission](https://arxiv.org/abs/2309.09291)
 
 ## Exciting Hardware Features
 [CHERI](https://www.cl.cam.ac.uk/research/security/ctsrd/cheri/) is a new ISA extension to enable capabilities in hardware.
