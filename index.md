@@ -49,7 +49,7 @@ Various techniques have been proposed to improve the reliability of these monoli
 We are looking at the state of the art and where it might go next based on new hardware trends.
 
 # Publications
-> Stay tuned
+* [PLOS 2023](https://plos-workshop.org/2023/program.php): CHERI-picking: Leveraging capability hardware for prefetching. S. Patel, S. Agrawal, A. Fedorova, and M. Seltzer (camera ready on the way)
 
 
 
