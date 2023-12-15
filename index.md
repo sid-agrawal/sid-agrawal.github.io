@@ -64,13 +64,13 @@ We are looking at the state of the art and where it might go next based on new h
     * [SOSP 2023 Poster Session](https://sosp2023.mpi-sws.org/cfpo.html)
     * [Submission](https://sid-agrawal.ca/OSmosis_SOSP_2023_Poster_Submission.pdf) & [Poster](https://sid-agrawal.ca/OSmosis_SOSP_2023_Poster.pdf)
 * OSmosis: Modeling & Building Flexible OS Isolation Mechanisms
-    * <ins>Sidhartha Agrawal</ins>, Shaurya Patel, Reto Achermann, and Margo Seltzer
+    * <ins>Sidhartha Agrawal</ins>, Reto Achermann, and Margo Seltzer
     * [Salmon 2023 Poster Session](https://systopia.cs.ubc.ca/event)
     * [Poster](https://sid-agrawal.ca/OSmosis_Salmon_2023_Poster.pdf)
 
 # Talks
-* Lightning Talk on OSmosis
-    * [HPTS 2022](http://www.hpts.ws/papers/2022/agenda.html)
+* Short talk on OSmosis
+    * [Gong Shoow at HPTS 2022](http://www.hpts.ws/papers/2022/agenda.html)
     * [Slides](http://www.hpts.ws/papers/2022/HPTS-2022-Gong-Show.pdf) (scroll to page 64)
 
 
