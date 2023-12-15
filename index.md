@@ -49,14 +49,12 @@ Various techniques have been proposed to improve the reliability of these monoli
 We are looking at the state of the art and where it might go next based on new hardware trends.
 
 # Publications
-* CHERI-picking: Leveraging capability hardware for prefetching.
-    * Shaurya Patel,  <ins>Sidhartha Agrawal</ins>, Alexandra Fedorova, and Margo Seltzer.
-    * [PLOS 2023](https://plos-workshop.org/2023/program.php): (camera ready on the way)
-
-# Preprints
 * OSmosis: No more Déjà vu in OS isolation
     * <ins>Sidhartha Agrawal</ins>, Reto Achermann, and Margo Seltzer 
     *  [Arxiv: 2309.09291](https://arxiv.org/abs/2309.09291)
+* CHERI-picking: Leveraging capability hardware for prefetching.
+    * Shaurya Patel,  <ins>Sidhartha Agrawal</ins>, Alexandra Fedorova, and Margo Seltzer.
+    * [PLOS 2023](https://dl.acm.org/doi/pdf/10.1145/3623759.3624553)
 
 
 # Conferences Attended
