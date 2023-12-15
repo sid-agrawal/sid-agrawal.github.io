@@ -50,11 +50,28 @@ We are looking at the state of the art and where it might go next based on new h
 
 # Publications
 * OSmosis: No more Déjà vu in OS isolation
-    * <ins>Sidhartha Agrawal</ins>, Reto Achermann, and Margo Seltzer 
-    *  [Arxiv: 2309.09291](https://arxiv.org/abs/2309.09291)
+    * <ins>Sidhartha Agrawal</ins>, Reto Achermann, and Margo Seltzer
+    * Arxiv
+    * [PDF](https://arxiv.org/abs/2309.09291)
 * CHERI-picking: Leveraging capability hardware for prefetching.
     * Shaurya Patel,  <ins>Sidhartha Agrawal</ins>, Alexandra Fedorova, and Margo Seltzer.
-    * [PLOS 2023](https://dl.acm.org/doi/pdf/10.1145/3623759.3624553)
+    * [12th Workshop on Programming Languages and Operating Systems (PLOS 2023)](https://plos-workshop.org/2023/)
+    * [PDF](https://dl.acm.org/doi/pdf/10.1145/3623759.3624553)
+
+# Posters
+* OSmosis: Modeling & Building Flexible OS Isolation Mechanisms
+    * <ins>Sidhartha Agrawal</ins>, Shaurya Patel, Reto Achermann, and Margo Seltzer
+    * [SOSP 2023 Poster Session](https://sosp2023.mpi-sws.org/cfpo.html)
+    * [Submission](https://sid-agrawal.ca/OSmosis_SOSP_2023_Poster_Submission.pdf) & [Poster](https://sid-agrawal.ca/OSmosis_SOSP_2023_Poster.pdf)
+* OSmosis: Modeling & Building Flexible OS Isolation Mechanisms
+    * <ins>Sidhartha Agrawal</ins>, Shaurya Patel, Reto Achermann, and Margo Seltzer
+    * [Salmon 2023 Poster Session](https://systopia.cs.ubc.ca/event)
+    * [Poster](https://sid-agrawal.ca/OSmosis_Salmon_2023_Poster.pdf)
+
+# Talks
+* Lightning Talk on OSmosis
+    * [HPTS 2022](http://www.hpts.ws/papers/2022/agenda.html)
+    * [Slides](http://www.hpts.ws/papers/2022/HPTS-2022-Gong-Show.pdf) (scroll to page 64)
 
 
 # Conferences Attended
