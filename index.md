@@ -49,9 +49,13 @@ Various techniques have been proposed to improve the reliability of these monoli
 We are looking at the state of the art and where it might go next based on new hardware trends.
 
 # Publications
+* Securing Monolithic Kernels using Compartmentalization
+    * Soo Yee Lim, <ins>Sidhartha Agrawal</ins>, Xueyuan Han, David Eyers, Dan O'Keeffe, Thomas Pasquier
+    * ArXiv
+    * [PDF](https://arxiv.org/pdf/2404.08716.pdf)
 * OSmosis: No more Déjà vu in OS isolation
     * <ins>Sidhartha Agrawal</ins>, Reto Achermann, and Margo Seltzer
-    * Arxiv
+    * ArXiv
     * [PDF](https://arxiv.org/abs/2309.09291)
 * CHERI-picking: Leveraging capability hardware for prefetching.
     * Shaurya Patel,  <ins>Sidhartha Agrawal</ins>, Alexandra Fedorova, and Margo Seltzer.
