@@ -1,7 +1,7 @@
 <img src="profile-pic-rect.jpg" alt="drawing" height="200"  align="right" >
 
 
-I am a fourth-year Ph.D. student at the [University of British Columbia](https://www.cs.ubc.ca/) in Canada and a member of the [Systopia Lab](https://systopia.cs.ubc.ca/) here.
+I am a Ph.D. candidate at the [University of British Columbia](https://www.cs.ubc.ca/) in Canada and a member of the [Systopia Lab](https://systopia.cs.ubc.ca/) here.
 My advisor is [Prof. Margo Seltzer](https://www.seltzer.com/margo/).
 I have worked as a [software engineer](https://www.linkedin.com/in/sidhartha-agrawal/) for eight years(Oracle, Arista in Canada and USA) and began my research journey in Jan 2021.
 In the summer of 2022, I interned at [ARM Research](https://veracruz-project.github.io/),
