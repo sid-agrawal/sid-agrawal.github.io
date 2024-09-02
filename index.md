@@ -22,9 +22,10 @@ We ask whether we really need to have N different isolation mechanisms or, inste
 If we could do that, then perhaps A) we could implement such a unified framework, and B) the framework might allow us to discover new and useful isolation mechanisms (that could be created seamlessly rather than requiring an entirely new implementation).
 
 The project has three main goals:
-* Develop a theoretical model or framework to unify existing isolation mechanisms.
+* Develop a theoretical model or framework to `compare` existing isolation mechanisms.
 * Identify novel points in the model that are useful, and demonstrate that the sharing and isolation has a spectrum.
 * Implement the model in seL4, or any other suitable platform.
+    * Prototype OS CellulOS: [Wiki](https://cellulosdocs.readthedocs.io/en/cellulos/index.html) and [src](https://github.com/sid-agrawal/OSmosis) 
 
 Below is an example of how we can view threads, processes, and virtual machines as more isolated than the previous one.
 This is an evolving diagram, as we are still investigating if the "Security and Performance Guarantees" across any two
@@ -33,7 +34,7 @@ types of protection domains can be compared.
 ![image](https://sid-agrawal.ca/images/isolation-spectrum.png)
 
 
-> I gave a lightning(gong) talk at [HPTS2022](hpts.ws) based on this work. More details available in our [Arxiv submission](https://arxiv.org/abs/2309.09291)
+> I gave a lightning(gong) talk at [HPTS2022](hpts.ws) based on this work. More details available in our [Arxiv submission](https://arxiv.org/abs/2309.09291), and [SOSP 2023 Poster](https://sid-agrawal.ca/OSmosis_SOSP_2023_Poster.pdf)
 
 ## Exciting Hardware Features
 [CHERI](https://www.cl.cam.ac.uk/research/security/ctsrd/cheri/) is a new ISA extension to enable capabilities in hardware.
