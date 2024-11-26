@@ -1,7 +1,7 @@
 ---
 layout: posts
 title:  "Understanding the various mounts setup by a Docker container"
-date: 2024-07-11
+date: 2024-11-26
 categories: Linux, Docker, mount, namespaces, mount_namespaces
 ---
 
