@@ -5,9 +5,10 @@ date: 2024-07-11
 categories: Linux, Docker, mount, namespaces, mount_namespaces
 ---
 
-This week, as I was digging into `mount_spaces` on Linux, there were some things I couldn't quite explain. 
+Why does a docker container have so many mounts?
 
 # Observed Behaviour
+This week, as I was digging into `mount_spaces` on Linux, there were some things I couldn't quite explain. 
 Let’s just talk about `procfs` mounts for now.
 
 Running the following on the host machine:
