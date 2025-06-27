@@ -25,7 +25,7 @@ The project has three main goals:
 * Develop a theoretical model or framework to `compare` existing isolation mechanisms.
 * Identify novel points in the model that are useful, and demonstrate that the sharing and isolation has a spectrum.
 * Implement the model in seL4, or any other suitable platform.
-    * Prototype OS CellulOS: [Wiki](https://cellulosdocs.readthedocs.io/en/cellulos/index.html) and [src](https://github.com/sid-agrawal/OSmosis) 
+    * Prototype OS CellulOS: [Wiki](https://cellulosdocs.readthedocs.io/en/cellulos/index.html) and [src](https://github.com/sid-agrawal/OSmosis)
 
 Below is an example of how we can view threads, processes, and virtual machines as more isolated than the previous one.
 This is an evolving diagram, as we are still investigating if the "Security and Performance Guarantees" across any two
@@ -74,9 +74,13 @@ We are looking at the state of the art and where it might go next based on new h
     * [Poster](https://sid-agrawal.ca/OSmosis_Salmon_2023_Poster.pdf)
 
 # Talks
+* Longer talk on OSmosis/CellulOS
+    * [seL4 Summit 2025](https://sel4summit2025.sched.com/event/26GFQ?iframe=no): CellulOS: An OS for Comparing Isolation Mechanisms
+        * Slides & Video Will be available in late Sep 2025
+
 * Short talk on OSmosis
-    * [Gong Shoow at HPTS 2022](http://www.hpts.ws/papers/2022/agenda.html)
-    * [Slides](http://www.hpts.ws/papers/2022/HPTS-2022-Gong-Show.pdf) (scroll to page 64)
+    * [Gong Show at HPTS 2022](http://www.hpts.ws/papers/2022/agenda.html)
+        * [Slides](http://www.hpts.ws/papers/2022/HPTS-2022-Gong-Show.pdf) (scroll to page 64)
 
 
 # Conferences Attended
