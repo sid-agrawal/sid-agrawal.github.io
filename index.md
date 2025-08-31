@@ -1,12 +1,14 @@
 <img src="profile-pic-rect.jpg" alt="drawing" height="200"  align="right" >
 
+I currently work as a software engineer at VMware/Broadcom, 
+where I contribute to building the virtual machine monitor and specialize in confidential computing. 
+Concurrently, I am a Ph.D. candidate at the [University of British Columbia](https://www.cs.ubc.ca/), 
+where I am a member of the [Systopia Lab](https://systopia.cs.ubc.ca/) advised by [Prof. Margo Seltzer](https://www.seltzer.com/margo/). 
+My academic research is centered on operating systems architecture and security.
 
-I am a Ph.D. candidate at the [University of British Columbia](https://www.cs.ubc.ca/) in Canada and a member of the [Systopia Lab](https://systopia.cs.ubc.ca/) here.
-My advisor is [Prof. Margo Seltzer](https://www.seltzer.com/margo/).
-I have worked as a [software engineer](https://www.linkedin.com/in/sidhartha-agrawal/) for eight years(Oracle, Arista in Canada and USA) and began my research journey in Jan 2021.
-In the summer of 2022, I interned at [ARM Research](https://veracruz-project.github.io/),
-working on seL4 and CHERI capabilities.
-My primary research interest is in operating systems architecture and security.
+My research journey began in January 2021, following an eight-year career as a software engineer at companies like Oracle and Arista. 
+I also had the opportunity to intern at ARM Research in the summer of 2022, where I focused on seL4 and CHERI capabilities.
+
 
 <a id="org6d28e7e"></a>
 # Research Projects
@@ -15,7 +17,7 @@ My primary research interest is in operating systems architecture and security.
 
 ## Operating Systems have way too many isolation mechanisms, but help is on the way.
 
-After sixty years of operating system evolution, we continue to find new and different isolation mechanisms: threads, processes, containers, virtual machines, lightweight contexts.
+After sixty years of operating system evolution, we continue to find new and different isolation mechanisms: threads, processes, containers, virtual machines, and lightweight contexts.
 Even applications provide isolation mechanisms: a JVM is a user-level process that provides isolation units whose API is Java bytecodes; some browsers offer units of isolation between each browser tab.
 
 We ask whether we really need to have N different isolation mechanisms or, instead, we could develop a framework in which all these different mechanisms represent points on a continuum.
@@ -50,6 +52,10 @@ Various techniques have been proposed to improve the reliability of these monoli
 We are looking at the state of the art and where it might go next based on new hardware trends.
 
 # Publications
+* Comparing Isolation mechanisms using OSmosis
+    * Soo Yee Lim, <ins>Sidhartha Agrawal</ins>, Xueyuan Han, David Eyers, Dan O'Keeffe, Thomas Pasquier
+    * PLOS 2025
+    * PDF will be available in late Sep 2025
 * Securing Monolithic Kernels using Compartmentalization
     * Soo Yee Lim, <ins>Sidhartha Agrawal</ins>, Xueyuan Han, David Eyers, Dan O'Keeffe, Thomas Pasquier
     * ArXiv
@@ -76,7 +82,7 @@ We are looking at the state of the art and where it might go next based on new h
 # Talks
 * Longer talk on OSmosis/CellulOS
     * [seL4 Summit 2025](https://sel4summit2025.sched.com/event/26GFQ?iframe=no): CellulOS: An OS for Comparing Isolation Mechanisms
-        * Slides & Video Will be available in late Sep 2025
+        * Slides & Video will be available in late Sep 2025
 
 * Short talk on OSmosis
     * [Gong Show at HPTS 2022](http://www.hpts.ws/papers/2022/agenda.html)
