@@ -53,7 +53,7 @@ We are looking at the state of the art and where it might go next based on new h
 
 # Publications
 * Comparing Isolation mechanisms using OSmosis
-    * Soo Yee Lim, <ins>Sidhartha Agrawal</ins>, Xueyuan Han, David Eyers, Dan O'Keeffe, Thomas Pasquier
+    * <ins>Sidhartha Agrawal</ins>, Shaurya Patel, Linh Pham, Arya Stevinson, Ilias Karimalis, Hugo Lefeuvre, Aastha Mehta, Reto Achermann, Margo Seltzer
     * PLOS 2025
     * PDF will be available in late Sep 2025
 * Securing Monolithic Kernels using Compartmentalization
