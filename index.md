@@ -82,7 +82,7 @@ We are looking at the state of the art and where it might go next based on new h
 # Talks
 * Longer talk on OSmosis/CellulOS
     * [seL4 Summit 2025](https://sel4summit2025.sched.com/event/26GFQ?iframe=no): CellulOS: An OS for Comparing Isolation Mechanisms
-        * Slides & Video will be available in late Sep 2025
+        * [Slides & Video](https://sel4summit2025.sched.com/event/26GFQ?iframe=no)
 
 * Short talk on OSmosis
     * [Gong Show at HPTS 2022](http://www.hpts.ws/papers/2022/agenda.html)
@@ -90,6 +90,8 @@ We are looking at the state of the art and where it might go next based on new h
 
 
 # Conferences Attended
+* [SOSP 2025](https://sigops.org/s/conferences/sosp/2025/), Seoul, South Korea `Travel Grant Recepient`
+* [seL4 Summit 2025](https://sel4.systems/Foundation/Summit/2025/), Prague, Czech Republic: Gave a [talk](https://sel4summit2025.sched.com/event/26GFQ?iframe=no) on CellulOS
 * [SOSP 2023](https://sosp2023.mpi-sws.org/), Coblenz, Germany `Helped with PC meeting logistics`
 * [seL4 Summit 2023](https://sel4.systems/Foundation/Summit/2023/), Minneapolis, MI, USA
 * [OSDI 2023](https://www.usenix.org/conference/osdi23), Boston, MA, USA
