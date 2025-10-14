@@ -55,8 +55,7 @@ We are looking at the state of the art and where it might go next based on new h
 * Comparing Isolation mechanisms using OSmosis
     * <ins>Sidhartha Agrawal</ins>, Shaurya Patel, Linh Pham, Arya Stevinson, Ilias Karimalis, Hugo Lefeuvre, Aastha Mehta, Reto Achermann, Margo Seltzer
     * [13th Workshop on Programming Languages and Operating Systems (PLOS 2025)](https://plos-workshop.org/2025/)
-    <!-- * [PDF](https://doi.org/10.1145/3764860.3768325) -->
-    * [PDF](https://sid-agrawal.ca/agrawalOSmosisPLOS2025.pdf)
+    * [PDF](https://doi.org/10.1145/3764860.3768325)
 * Securing Monolithic Kernels using Compartmentalization
     * Soo Yee Lim, <ins>Sidhartha Agrawal</ins>, Xueyuan Han, David Eyers, Dan O'Keeffe, Thomas Pasquier
     * ArXiv
