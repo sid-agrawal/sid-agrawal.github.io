@@ -186,7 +186,7 @@ from the orig mount `/proc`. Then, it is again remounted as a readonly mount. St
 When running a `--privileged` container, there is no need to hide parts of the `/proc` of `/sys` from the host,
 and hence we do not see these masked and readonly paths.
 Both `procfs` and `sysfs` are interfaces to the kernel, and they expose both read-only, write, and config options.
-However, the way to mount these has no way to specifing not mounting sub-parts, hence we do this extra steps.
+However, the way to mount these has no way to specify not mounting sub-parts, hence we do these extra steps.
 
 # Taking a step back
 So far, I have come across the following kernel interfaces:

@@ -99,7 +99,7 @@ We are looking at the state of the art and where it might go next based on new h
 
 
 # Conferences Attended
-* [SOSP 2025](https://sigops.org/s/conferences/sosp/2025/), Seoul, South Korea `Travel Grant Recepient`
+* [SOSP 2025](https://sigops.org/s/conferences/sosp/2025/), Seoul, South Korea `Travel Grant Recipient`
 * [seL4 Summit 2025](https://sel4.systems/Foundation/Summit/2025/), Prague, Czech Republic: Gave a [talk](https://sel4summit2025.sched.com/event/26GFQ?iframe=no) on CellulOS
 * [SOSP 2023](https://sosp2023.mpi-sws.org/), Coblenz, Germany `Helped with PC meeting logistics`
 * [seL4 Summit 2023](https://sel4.systems/Foundation/Summit/2023/), Minneapolis, MI, USA

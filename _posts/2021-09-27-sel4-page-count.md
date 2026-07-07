@@ -56,7 +56,7 @@ int sel4utils_walk_vspace(vspace_t *vspace, vka_t *vka) {
     int i = 0;
 
     /* Walk all the page tables */
-    printf("\n\nIntel-32 Page Table Hierarcy from sel4utils_alloc_data->top_level->table \n");
+    printf("\n\nIntel-32 Page Table Hierarchy from sel4utils_alloc_data->top_level->table \n");
     if (data->top_level)
     {
         for (i = 0; i < BIT(VSPACE_LEVEL_BITS); i++)
@@ -145,7 +145,7 @@ VSPACE_NUM_LEVELS 2
 Reservations from  sel4utils_alloc_data->reservation_head:
         [0] 0x10001000->0x10012000 17 pages malloced(1)
 
-Intel-32 Page Table Hierarcy from sel4utils_alloc_data->top_level->table 
+Intel-32 Page Table Hierarchy from sel4utils_alloc_data->top_level->table 
 PDE-Index(32) 
         NUM-PTE:  1024 Empty:   637     Reserved:     0         Used:   387
 PDE-Index(64) 
@@ -167,7 +167,7 @@ Why is there is a discrepancy in the number of pages used?
   driver sharing a page with the test-app.
 
 ### Answer
-The discrepency stems from this line: [seL4_libs/elf.c](https://github.com/seL4/seL4_libs/blob/master/libsel4utils/src/elf.c#L503)
+The discrepancy stems from this line: [seL4_libs/elf.c](https://github.com/seL4/seL4_libs/blob/master/libsel4utils/src/elf.c#L503)
 
 Turns out the nodes in the vspace's reservation list are deleted at line 503. 
 I changed the caller of `sel4utils_elf_load_record_regions` to malloc the memory required for 
