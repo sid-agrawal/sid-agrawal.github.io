@@ -1,3 +1,8 @@
+---
+layout: default
+title: Sid Agrawal
+---
+
 <img src="profile-pic-rect.jpg" alt="drawing" height="200"  align="right" >
 
 I currently work as a software engineer at VMware/Broadcom,
@@ -52,6 +57,10 @@ Various techniques have been proposed to improve the reliability of these monoli
 We are looking at the state of the art and where it might go next based on new hardware trends.
 
 # Publications
+* Exploring the Design Space of Isolation Mechanisms using OSmosis
+    * <ins>Sidhartha Agrawal</ins>, Shaurya Patel, Linh Pham, Arya Stevinson, Ilias Karimalis, Hugo Lefeuvre, Aastha Mehta, Reto Achermann, Margo Seltzer
+    * [14th Workshop on Programming Languages and Operating Systems (PLOS 2026)](https://plos-workshop.org/2026/)
+    * [PDF](#) (Coming Soon)
 * Comparing Isolation mechanisms using OSmosis
     * <ins>Sidhartha Agrawal</ins>, Shaurya Patel, Linh Pham, Arya Stevinson, Ilias Karimalis, Hugo Lefeuvre, Aastha Mehta, Reto Achermann, Margo Seltzer
     * [13th Workshop on Programming Languages and Operating Systems (PLOS 2025)](https://plos-workshop.org/2025/)
