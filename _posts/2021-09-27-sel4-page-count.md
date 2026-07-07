@@ -2,7 +2,7 @@
 layout: posts
 title:  "seL4: Page count mismatch in sel4utlils vspace library"
 date: 2021-09-27
-categories: sel4, virtual memory
+categories: [sel4, virtual-memory]
 ---
 
 ```

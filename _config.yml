@@ -1,6 +1,8 @@
 theme: jekyll-theme-cayman
 title: Sid Agrawal
-page.title: Sid Agrawal
-google_analytics: UA-131641569-1
+google_analytics: G-XXXXXXXXXX
 plugins:
   - jekyll-feed
+
+# Clean date-based post URLs (avoids category segments in the path)
+permalink: /:year/:month/:day/:title:output_ext

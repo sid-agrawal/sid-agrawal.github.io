@@ -49,7 +49,7 @@ And [Morello](https://www.arm.com/architecture/cpu/morello) is the first silicon
 I have been looking at how this hardware capability impacts the design of existing capabilities-based microkernels like seL4.
 This work was done during my internship at ARM Research in the summer of 2022.
 
-> Here is a blog post about the work done over that summer [www](https://sid-agrawal.ca/sel4,/cheri,/morello,/aarch64,/cheribsd/2023/01/01/seL4-CHERI.html).
+> Here is a blog post about the work done over that summer [www](https://sid-agrawal.ca/2023/01/01/seL4-CHERI.html).
 
 ## Intra-kernel Compartmentalization
 Monolithic kernels like  Linux, BSD, and Windows are behemoths that share a single address space.

@@ -2,7 +2,7 @@
 layout: posts
 title:  "Virtual Machine Core Idea"
 date: 2022-01-25
-categories: virtual machine, hypervisor, vt-x 
+categories: [virtual-machine, hypervisor, vt-x]
 ---
 
 
