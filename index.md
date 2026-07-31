@@ -60,7 +60,7 @@ We are looking at the state of the art and where it might go next based on new h
 * Exploring the Design Space of Isolation Mechanisms using OSmosis
     * <ins>Sidhartha Agrawal</ins>, Shaurya Patel, Linh Pham, Arya Stevinson, Ilias Karimalis, Hugo Lefeuvre, Aastha Mehta, Reto Achermann, Margo Seltzer
     * [14th Workshop on Programming Languages and Operating Systems (PLOS 2026)](https://plos-workshop.org/2026/)
-    * [PDF](#) (Coming Soon)
+    * [PDF](https://sid-agrawal.ca/agrawalOSmosisExplorePLOS2026.pdf)
 * Comparing Isolation mechanisms using OSmosis
     * <ins>Sidhartha Agrawal</ins>, Shaurya Patel, Linh Pham, Arya Stevinson, Ilias Karimalis, Hugo Lefeuvre, Aastha Mehta, Reto Achermann, Margo Seltzer
     * [13th Workshop on Programming Languages and Operating Systems (PLOS 2025)](https://plos-workshop.org/2025/)
