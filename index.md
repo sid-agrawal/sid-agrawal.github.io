@@ -5,7 +5,7 @@ title: Sid Agrawal
 
 <img src="profile-pic-rect.jpg" alt="drawing" height="200"  align="right" >
 
-I currently work as a software engineer at VMware/Broadcom,
+I currently work as a Staff Software Engineer at VMware/Broadcom,
 where I contribute to building the virtual machine monitor and specialize in confidential computing.
 Concurrently, I am a Ph.D. candidate at the [University of British Columbia](https://www.cs.ubc.ca/),
 where I am a member of the [Systopia Lab](https://systopia.cs.ubc.ca/) advised by [Prof. Margo Seltzer](https://www.seltzer.com/margo/).
