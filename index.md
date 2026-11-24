@@ -7,8 +7,8 @@ title: Sid Agrawal
 
 I currently work as a Staff Software Engineer at VMware/Broadcom,
 where I contribute to building the virtual machine monitor and specialize in confidential computing.
-Concurrently, I am a Ph.D. candidate at the [University of British Columbia](https://www.cs.ubc.ca/),
-where I am a member of the [Systopia Lab](https://systopia.cs.ubc.ca/) advised by [Prof. Margo Seltzer](https://www.seltzer.com/margo/).
+I recently completed my Ph.D. at the [University of British Columbia](https://www.cs.ubc.ca/),
+where I was a member of the [Systopia Lab](https://systopia.cs.ubc.ca/) advised by [Prof. Margo Seltzer](https://www.seltzer.com/margo/).
 My academic research is centered on operating systems architecture and security.
 
 My research journey began in January 2021, following an eight-year career as a software engineer at companies like Oracle and Arista.
@@ -101,8 +101,8 @@ We are looking at the state of the art and where it might go next based on new h
 # Conferences Attended
 * [SOSP 2025](https://sigops.org/s/conferences/sosp/2025/), Seoul, South Korea `Travel Grant Recipient`
 * [seL4 Summit 2025](https://sel4.systems/Foundation/Summit/2025/), Prague, Czech Republic: Gave a [talk](https://sel4summit2025.sched.com/event/26GFQ?iframe=no) on CellulOS
-* [SOSP 2023](https://sosp2023.mpi-sws.org/), Coblenz, Germany `Helped with PC meeting logistics`
-* [seL4 Summit 2023](https://sel4.systems/Foundation/Summit/2023/), Minneapolis, MI, USA
+* [SOSP 2023](https://sosp2023.mpi-sws.org/), Koblenz, Germany `Helped with PC meeting logistics`
+* [seL4 Summit 2023](https://sel4.systems/Foundation/Summit/2023/), Minneapolis, MN, USA
 * [OSDI 2023](https://www.usenix.org/conference/osdi23), Boston, MA, USA
 * [HPTS 2022](http://hpts.ws/index.html), Monterey, California, USA: `Gave a lightning talk on OS isolation mechanisms`
 * [OSDI 2022](https://www.usenix.org/conference/osdi22), San Diego, California, USA
